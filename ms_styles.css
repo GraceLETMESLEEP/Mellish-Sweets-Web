@@ -159,13 +159,8 @@ p {
   float: right;
   width: 200%;
   margin-left: -100%;
-  position: relative;
+  position: fixed;
   z-index: 1;
-}
-
-.image-stack__item--bottom {
-  float: right;
-  width: 75%;
 }
 
 #pastries1 {
