@@ -166,9 +166,6 @@ p {
 .image-stack__item--bottom {
     float: left;
     width: 100%;
-}
-
-#pastries1 {
     height: 200px;
     filter: saturate(1.5) contrast(1.5);
     object-fit: cover;
