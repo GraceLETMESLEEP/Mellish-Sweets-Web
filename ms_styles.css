@@ -154,11 +154,9 @@ p {
   display: table;
   clear: both;
 }
-
 #albylogo {
     float: right;
     width: 30%;
-    margin-left: -100%;
     position: relative;
     z-index: 1;
 }
