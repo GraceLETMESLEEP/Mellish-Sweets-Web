@@ -154,15 +154,15 @@ p {
   clear: both;
 }
 
-.image-stack__item--top {
-    float: right;
+#albylogo {
+  float: right;
     width: 30%;
     margin-left: -100%;
     position: relative;
     z-index: 1;
 }
 
-.image-stack__item--bottom {
+#pastries1 {
     float: right;
     width: 100%;
     height: 200px;
@@ -172,7 +172,6 @@ p {
     border-top: solid 1.25em white;
     border-bottom: solid 1.25em white;
 }
-
 
  /* Light Box Styles */
 .hover-shadow {
