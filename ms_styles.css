@@ -148,16 +148,34 @@ p {
 
  /* Image Styles */
 
+.image-stack {
+  display: grid;
+  position: relative; /* imperative for the overlapping to work */
+  grid-template-columns: repeat(12, 1fr);
+}
+
+.image-stack__item--bottom {
+  grid-column: 4 / -1;
+  grid-row: 1;
+}
+
+.image-stack__item--top {
+  grid-row: 1;
+  grid-column: 1 / span 8;
+  padding-top: 20%; /* slightly arbitrary, keeps proportion once resized */
+  z-index: 1; /* tells the browser to make this image on top */
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
  #albylogo {
-    position: static;
-    flex: content;
-    flex-flow: nowrap;
-    display: block;
     margin-left: auto;
     right: 70%;
     float: right;
     width: 600px;
-    z-index: 10;
  }
 
  #pastries1 {
@@ -166,7 +184,6 @@ p {
     filter: saturate(1.5) contrast(1.5);
     object-fit: cover;
     object-position: 0 25%;
-    display: block;
     border-top: solid 1.25em white;
     border-bottom: solid 1.25em white;
  }
