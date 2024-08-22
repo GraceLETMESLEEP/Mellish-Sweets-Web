@@ -149,25 +149,26 @@ p {
  /* Image Styles */
 
  #albylogo {
-  position: absolute;
-  display: block;
-  margin-left: auto;
-  right: 150px;
-  float: right;
-  width: 600px;
-  z-index: 10;
-}
+    position: absolute;
+    display: block;
+    margin-left: auto;
+    right: 150px;
+    float: right;
+    width: 600px;
+    z-index: 10;
+ }
 
-#pastries1 {
-  width: 195%;
-  height: 200px;
-  filter: saturate(1.5) contrast(1.5);
-  object-fit: cover;
-  object-position: 0 25%;
-  display: block;
-  border-top: solid 1.25em white;
-  border-bottom: solid 1.25em white;
-}
+ #pastries1 {
+    width: 195%;
+    height: 200px;
+    filter: saturate(1.5) contrast(1.5);
+    object-fit: cover;
+    object-position: 0 25%;
+    display: block;
+    border-top: solid 1.25em white;
+    border-bottom: solid 1.25em white;
+ }
+
 
  /* Light Box Styles */
 .hover-shadow {
