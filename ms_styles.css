@@ -160,9 +160,9 @@ p {
   }
 
   .image-stack__item--top {
-      float: left;
-      width: 66%;
-      margin-right: -100%;
+      float: right;
+      width: 30%;
+      margin-left: -100%;
       position: relative;
       z-index: 1; /* tells the browser to make this image on top */
   }
