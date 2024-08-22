@@ -148,6 +148,13 @@ p {
 }
 
  /* Image Styles */
+
+ .container {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1080px;
+}
+
  .image-stack::after {
   content: ' ';
   display: table;
