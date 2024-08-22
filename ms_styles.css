@@ -157,9 +157,9 @@ p {
 
 #albylogo {
   float: right;
-  width: 200%;
+  width: 900px;
   margin-left: -100%;
-  position: fixed;
+  position: relative;
   z-index: 1;
 }
 
