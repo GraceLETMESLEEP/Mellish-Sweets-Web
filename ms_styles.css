@@ -148,27 +148,28 @@ p {
 
  /* Image Styles */
 
-.image-stack {
-  display: grid;
-  position: relative; /* imperative for the overlapping to work */
-  grid-template-columns: repeat(12, 1fr);
-}
-
-.image-stack__item--bottom {
-  grid-column: 4 / -1;
-  grid-row: 1;
+ .image-stack::after {
+  content: ' ';
+  display: table;
+  clear: both;
 }
 
 .image-stack__item--top {
-  grid-row: 1;
-  grid-column: 1 / span 8;
-  padding-top: 20%; /* slightly arbitrary, keeps proportion once resized */
-  z-index: 1; /* tells the browser to make this image on top */
+    float: left;
+    width: 66%;
+    margin-right: -100%;
+    padding-top: 15%; /* arbitrary */
+    position: relative;
+    z-index: 1;
+}
+
+.image-stack__item--bottom {
+    float: right;
+    width: 75%;
 }
 
 img {
   width: 100%;
-  display: block;
 }
 
  #albylogo {
