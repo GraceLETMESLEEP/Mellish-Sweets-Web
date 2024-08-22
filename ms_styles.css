@@ -151,6 +151,7 @@ p {
 #albylogo {
   max-width: 30px;
   z-index: 1;
+  background: url(albylogo.png) no-repeat center center fixed; 
   background-size: cover;
 }
 
