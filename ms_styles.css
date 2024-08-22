@@ -150,7 +150,6 @@ p {
  /* Image Styles */
 #albylogo {
   width: 30%;
-  margin-left: 700px;
   z-index: 1;
   position: absolute;
 }
