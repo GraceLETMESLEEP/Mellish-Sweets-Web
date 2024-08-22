@@ -163,6 +163,11 @@ p {
   z-index: 1;
 }
 
+.image-stack__item--bottom {
+  float: right;
+  width: 75%;
+}
+
 #pastries1 {
     float: right;
     width: 100%;
