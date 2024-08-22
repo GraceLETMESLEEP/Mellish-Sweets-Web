@@ -148,30 +148,49 @@ p {
 }
 
  /* Image Styles */
-
- .container {
+ img {
   width: 100%;
-  margin: 0 auto;
-  max-width: 1080px;
+  display: block;
 }
 
- .image-stack::after {
-  content: ' ';
-  display: table;
-  clear: both;
-}
+.image-stack::after {
+    content: ' ';
+    display: table;
+    clear: both;
+  }
 
-.image-stack__item--top {
-    float: right;
-    width: 30%;
-    margin-right: -100%;
-    position: relative;
-    z-index: 1;
-}
+  .image-stack__item--top {
+      float: left;
+      width: 66%;
+      margin-right: -100%;
+      position: relative;
+      z-index: 1; /* tells the browser to make this image on top */
+  }
 
-.image-stack__item--bottom {
-    float: left;
+  .image-stack__item--bottom {
+      float: right;
+      width: 75%;
+  }
+
+@supports (display: grid) {
+  .image-stack {
+    display: grid;
+    position: relative; /* imperative for the overlapping to work */
+    grid-template-columns: repeat(12, 1fr);
+  }
+
+  .image-stack__item--bottom {
+    grid-column: 4 / -1;
+    grid-row: 1;
     width: 100%;
+  }
+
+  .image-stack__item--top {
+    grid-row: 1;
+    grid-column: 1 / span 8;
+    padding-top: 20%; /* slightly arbitrary, keeps proportion once resized */
+    width: 100%;
+  }
 }
 
 #pastries1 {
