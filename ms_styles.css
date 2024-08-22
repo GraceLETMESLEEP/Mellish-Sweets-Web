@@ -149,10 +149,11 @@ p {
  /* Image Styles */
 
  #albylogo {
-    position: absolute;
+    position: static;
+    flex-flow: nowrap;
     display: block;
     margin-left: auto;
-    right: 150px;
+    right: 70%;
     float: right;
     width: 600px;
     z-index: 10;
