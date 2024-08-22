@@ -150,6 +150,7 @@ p {
 
  #albylogo {
     position: static;
+    flex: content;
     flex-flow: nowrap;
     display: block;
     margin-left: auto;
