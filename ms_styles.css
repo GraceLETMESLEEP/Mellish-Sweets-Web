@@ -157,11 +157,13 @@ p {
 
 .image-stack__item--top {
   float: right;
-  width: 30%;
   margin-left: -100%;
-  padding-top: 15%;
   position: relative;
   z-index: 1;
+}
+ 
+#alylogo {
+  width: 30%;
 }
 
 .image-stack__item--bottom {
