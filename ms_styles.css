@@ -189,9 +189,9 @@ p {
   }
   
   header nav ul li {
-     font-size: 3em;
-     line-height: 3.3em;
-     height: 3.3em;
+     font-size: 1em;
+     line-height: 1.3em;
+     height: 1.3em;
   }
   
   a#navicon:hover+ul, header nav ul:hover {
@@ -200,7 +200,7 @@ p {
   
   
   h1 {
-     font-size: 7em;
+     font-size: 5em;
      text-shadow: none;
      -webkit-text-stroke: 1em rgb(174, 74, 128);
      margin: 10px;
@@ -208,7 +208,7 @@ p {
   }
 
   #albylogo {
-    width: 50px;
+    width: 200px;
     float: center;
     position: absolute;
   }
