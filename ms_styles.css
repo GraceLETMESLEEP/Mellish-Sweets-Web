@@ -201,14 +201,13 @@ p {
   h1 {
      font-size: 50px;
      text-shadow: none;
-     -webkit-text-stroke: 3px rgb(174, 74, 128);
      margin: 10px;
-     color: white;
+     color: rgb(255, 209, 235);
   }
 
   #albylogo {
-    width: 300px;
-    margin-top: 80px;
+    width: 500px;
+    margin-top: 200px;
     float: center;
     position: absolute;
   }
