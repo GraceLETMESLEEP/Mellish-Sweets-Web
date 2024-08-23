@@ -189,7 +189,6 @@ p {
   }
   
   header nav ul li {
-     font-size: 1em;
      line-height: 1.3em;
      height: 1.3em;
   }
@@ -200,21 +199,18 @@ p {
   
   
   h1 {
-     font-size: 5em;
+     font-size: 50px;
      text-shadow: none;
-     -webkit-text-stroke: 1em rgb(174, 74, 128);
+     -webkit-text-stroke: 3px rgb(174, 74, 128);
      margin: 10px;
      color: white;
   }
 
   #albylogo {
-    width: 200px;
+    width: 300px;
+    margin-top: 80px;
     float: center;
     position: absolute;
-  }
-
-  p {
-    font-size: 0.75;
   }
 }
 
