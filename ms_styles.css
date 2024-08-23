@@ -176,6 +176,9 @@ p {
    ===============================
 */
 @media only screen and (max-width: 640px) {
+  html {
+    width: 100%;
+  }
 
   header nav {
      padding-bottom: 5px;
@@ -186,22 +189,26 @@ p {
   }
   
   header nav ul li {
-     font-size: 1em;
-     line-height: 1.3em;
-     height: 1.3em;
+     font-size: 3em;
+     line-height: 3.3em;
+     height: 3.3em;
   }
   
   a#navicon:hover+ul, header nav ul:hover {
      display: block;
   }
   
-  header img#logoimg {
-     width: 100%;
-  }
   
   h1 {
-     font-size: 3em;
+     font-size: 5em;
+     -webkit-text-stroke: 1em rgb(174, 74, 128);
   }
+}
+
+#albylogo {
+  width: 200px;
+  float: center;
+  position: absolute;
 }
 
 
