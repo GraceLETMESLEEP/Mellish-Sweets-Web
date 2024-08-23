@@ -15,7 +15,6 @@
 html {
     background: linear-gradient(to bottom, rgb(255, 255, 255), rgb(255, 209, 235));
     min-height: 100%;
-    line-height: normal;
  }
  
  body { 
@@ -42,11 +41,12 @@ html {
  
  header {
     background: rgb(255, 255, 255);
-    position: relative;
+    position: sticky;
     width: 100%;
     animation: easeOutLeft ease-out 1s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
+    padding-top: 30px;
  }
 
 @keyframes easeOutLeft {
@@ -78,7 +78,6 @@ html {
  nav.horizontal ul li {
     -webkit-flex: 1 1;
     flex: 1 1;
-    position: sticky;
     background-color: rgb(255, 255, 255);
     display: block;
     color: rgb(174, 74, 128);
