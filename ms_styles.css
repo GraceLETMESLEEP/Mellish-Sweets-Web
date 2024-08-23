@@ -203,6 +203,8 @@ p {
      font-size: 5em;
      text-shadow: none;
      -webkit-text-stroke: 1em rgb(174, 74, 128);
+     margin: 10px;
+     color: white;
   }
 
   #albylogo {
