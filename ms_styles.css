@@ -201,14 +201,19 @@ p {
   
   h1 {
      font-size: 5em;
+     text-shadow: none;
      -webkit-text-stroke: 1em rgb(174, 74, 128);
   }
-}
 
-#albylogo {
-  width: 200px;
-  float: center;
-  position: absolute;
+  #albylogo {
+    width: 200px;
+    float: center;
+    position: absolute;
+  }
+
+  p {
+    font-size: 0.75;
+  }
 }
 
 
