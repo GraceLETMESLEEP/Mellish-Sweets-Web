@@ -15,7 +15,6 @@
 html {
     background: linear-gradient(to bottom, rgb(255, 255, 255), rgb(255, 209, 235));
     min-height: 100%;
-    margin: auto;
  }
  
  body { 
