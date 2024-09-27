@@ -35,9 +35,10 @@
   
   /* Create four equal columns that floats next to eachother */
   .column {
-   float: center;
+   float: left;
    width: 20%;
     margin: 20px;
+    padding-left: 20%;
   }
   
   /* The Modal (background) */
