@@ -149,10 +149,10 @@ p {
  /* Image Styles */
 
  #albylogo {
-    position: absolute;
+    position: relative;
     display: block;
     margin-left: auto;
-    right: 150px;
+    right: 30%;
     float: right;
     width: 600px;
     z-index: 10;
