@@ -170,8 +170,12 @@ p {
  }
 
 #head img {
+   display: block;
    position: relative;
    margin: 20px;
+   width: 100%;
+   height: auto;
+   object-fit: contain;
 }
 
  /* ===============================
